@@ -26,6 +26,10 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+
+    viewBinding {
+        enabled = true
+    }
 }
 
 dependencies {
@@ -33,6 +37,10 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'com.google.android.material:material:1.2.1'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'androidx.navigation:navigation-fragment:2.3.2'
+    implementation 'androidx.navigation:navigation-ui:2.3.2'
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.2.0'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0'
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
@@ -42,6 +50,7 @@ dependencies {
     implementation 'com.jakewharton.retrofit:retrofit2-rxjava2-adapter:1.0.0'
     implementation 'com.jakewharton.rxrelay2:rxrelay:2.0.0'
 
+    implementation 'com.jakewharton.rxbinding4:rxbinding:4.0.0'
     implementation 'com.trello.rxlifecycle4:rxlifecycle:4.0.2'
     implementation 'com.trello.rxlifecycle4:rxlifecycle-android:4.0.2'
     implementation 'com.trello.rxlifecycle4:rxlifecycle-components:4.0.2'

@@ -14,13 +14,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PlayAndroid">
-        <activity android:name=".base.MainActivity">
+        <activity
+            android:name=".extra.EntranceActivity"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".base.MainActivity"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTask">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".extra.PaintActivity"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTop" />
     </application>
 
 </manifest>

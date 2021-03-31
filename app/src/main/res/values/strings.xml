@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">PlayAndroid</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    
+    <string name="menu_marquee">跑马灯</string>
+    <string name="mmarquee_test_text">如果在同一布局中有EditText、ScrollView等会自动获取焦点的View的话，那么我们在布局文件中声明的这个textView就无法获取焦点，也就意味着跑马灯效果会失效</string>
 </resources>
